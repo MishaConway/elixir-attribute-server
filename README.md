@@ -13,6 +13,7 @@ This code is available in Hex at (https://hex.pm/packages/attribute_server) and 
       [{:attribute_server, "~> 0.1.0"}]
     end
     ```
+
 ## Configuration   
 
 Use it in a module you want to track attributes in
@@ -29,16 +30,16 @@ end
 
 set
 ```elixir
-  # set some attributes
-	MyApp.GameState.set :current_score, 1000
-  MyApp.GameState.set :current_level, 3
+    # set some attributes
+	   MyApp.GameState.set :current_score, 1000
+     MyApp.GameState.set :current_level, 3
 ```
 
 get
 ```elixir
-  # get some attributes
-	MyApp.GameState.get :current_score
-  MyApp.GameState.get :current_level
+    # get some attributes
+	   MyApp.GameState.get :current_score
+     MyApp.GameState.get :current_level
 ```
 
 all
